@@ -1,1 +1,14 @@
-
+{
+  "bronnen": {
+    "bruggen": {
+      "url": "https://",
+      "contactpersoon": {},
+      "documentatie": "https://"
+    },
+    "sluizen": {
+      "url": "https://",
+      "contactpersoon": {},
+      "documentatie": "https://"
+    }
+  }
+}
