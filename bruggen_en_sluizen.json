@@ -1,0 +1,140 @@
+{
+  "objecten": [
+    {
+      "naam": "Friese Sluis",
+      "omschrijving": "bij Lemmer, tussen het IJsselmeer en de Lemstervaart",
+      "coordinaten": {
+        "lat": 52.8378132,
+        "lon": 5.7113786
+      }
+    },
+    {
+      "naam": "Voorstersluis",
+      "omschrijving": "bij Kraggenburg, tussen het Kadoelermeer en de Zwolsevaart",
+      "coordinaten": {
+        "lat": 52.6686946,
+        "lon": 5.9281361
+      }
+    },
+    {
+      "naam": "Vollenhoverbrug",
+      "omschrijving": "bij Vollenhove, over het Vollenhoverkanaal",
+      "coordinaten": {
+        "lat": 52.6842369,
+        "lon": 5.9442891
+      }
+    },
+    {
+      "naam": "Marknessersluis",
+      "omschrijving": "bij Marknesse, in de Zwolsevaart",
+      "coordinaten": {
+        "lat": 52.6042263,
+        "lon": 5.6828103
+      }
+    },
+    {
+      "naam": "Urkersluis",
+      "omschrijving": "bij Urk, tussen het IJsselmeer en de Urkervaart",
+      "coordinaten": {
+        "lat": 52.657875,
+        "lon": 5.6012378
+      }
+    },
+    {
+      "naam": "Arie de Witbrug",
+      "omschrijving": "bij Urk, over de Urkervaart",
+      "coordinaten": {
+        "lat": 52.6576179,
+        "lon": 5.6117165
+      }
+    },
+    {
+      "naam": "Zwolsebrug",
+      "omschrijving": "bij Urk, fietsbrug over de Urkervaart",
+      "coordinaten": {
+        "lat": 52.6575605,
+        "lon": 5.6299694
+      }
+    },
+    {
+      "naam": "Tollebekerbrug",
+      "omschrijving": "bij Tollebeek, over de Urkervaart",
+      "coordinaten": {
+        "lat": 52.6778397,
+        "lon": 5.681078
+      }
+    },
+    {
+      "naam": "Ketelsluis",
+      "omschrijving": "tussen het Ketelmeer en de Hoge Vaart",
+      "coordinaten": {
+        "lat": 52.5788427,
+        "lon": 5.7557869
+      },
+      "regio": "Oostelijk Flevoland"
+    },
+    {
+      "naam": "Kampersluis",
+      "omschrijving": "tussen de Hoge en de Lage Vaart",
+      "coordinaten": {
+        "lat": 52.5731255,
+        "lon": 5.7507296
+      },
+      "regio": "Oostelijk Flevoland"
+    },
+    {
+      "naam": "Elburgerbrug",
+      "omschrijving": "bij Elburg, over het Veluwemeer",
+      "coordinaten": {
+        "lat": 52.4574302,
+        "lon": 5.8147356
+      },
+      "regio": "Oostelijk Flevoland"
+    },
+    {
+      "naam": "Blauwe Dromer",
+      "omschrijving": "bij Harderwijk, tussen het Veluwemeer en de Hoge Dwarsvaart",
+      "coordinaten": {
+        "lat": 52.3706459,
+        "lon": 5.61231
+      },
+      "regio": "Oostelijk Flevoland"
+    },
+    {
+      "naam": "Larsersluis",
+      "omschrijving": "in de Larsertocht",
+      "coordinaten": {
+        "lat": 52.4146327,
+        "lon": 5.585713
+      },
+      "regio": "Oostelijk Flevoland"
+    },
+    {
+      "naam": "Noordersluis",
+      "omschrijving": "bij Lelystad, tussen het Markermeer en de Lage Dwarsvaart",
+      "coordinaten": {
+        "lat": 52.5032053,
+        "lon": 5.4169542
+      },
+      "regio": "Oostelijk Flevoland"
+    },
+    {
+      "naam": "Zuidersluis",
+      "omschrijving": "bij Almere, tussen het Markermeer en de Lage Vaart",
+      "coordinaten": {
+        "lat": 52.4170493,
+        "lon": 5.2207483
+      },
+      "regio": "Zuidelijk Flevoland"
+    },
+    {
+      "naam": "Vaartsluis",
+      "omschrijving": "bij Almere, tussen de Lage Vaart",
+      "coordinaten": {
+        "lat": 52.4068256,
+        "lon": 5.2303149
+      },
+      "regio": "Zuidelijk Flevoland"
+    }
+  ]
+}
