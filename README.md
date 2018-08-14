@@ -1,20 +1,9 @@
-![Provincie Flevoland](https://www.flevoland.nl/getmedia/e1ee3730-6d0e-4a5a-8e24-c42801b1bcc6/Logo.png)
-# Data Servicepunt
+## Data Servicepunt flevoland
 
-## [Advies](/advies)
-In kaart brengen en beschrijven van beschikbare databronnen en informatiestromen binnen de organisatie. Advies op het gebied van datakwaliteit en verbetering van dataprocessen en informatiestromen.
+Proof of Concept op basis van 3 wensen:
 
-contact: flevoland@dataservicepunt.nl
+ * Bruggen en Sluizen op de Kaart
+ * "Twitterfeed" beschikbaarheid Bruggen en Sluizen
+ * SMS-notificaties beschikbaarheid Bruggen en Sluizen
 
-## [Beheer](/beheer)
-Bestaande en nieuwe databronnen overzichtelijk en (her)bruikbaar aanbieden op een centrale plek, en hiervoor de nodige afspraken maken met bronhouders en afnemers.
-
-### Beschikbare data
-[databronnen](databronnen.json) (json formaat)
-
-contact: flevoland@dataservicepunt.nl
-
-## [Toepassingen](/toepassingen)
-Data science, data services en datagedreven applicaties.
-
-contact: flevoland@dataservicepunt.nl
+Contact: flevoland@dataservicepunt.nl
