@@ -1,0 +1,268 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "naam": "Friese Sluis",
+      "omschrijving": "bij Lemmer, tussen het IJsselmeer en de Lemstervaart",
+      "technisch": {
+        "hoogte": 39,
+        "breedte": 6.8,
+        "hoogte bij dichte brug": 6.2,
+        "diepgang": 2.4
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [5.7113786, 52.8378132]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "naam": "Voorstersluis",
+      "omschrijving": "bij Kraggenburg, tussen het Kadoelermeer en de Zwolsevaart",
+      "technisch": {
+        "hoogte": 39,
+        "breedte": 6.8,
+        "hoogte bij dichte brug": 5.3,
+        "diepgang": 2.4
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [5.9281361, 52.6686946]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "naam": "Vollenhoverbrug",
+      "omschrijving": "bij Vollenhove, over het Vollenhoverkanaal",
+      "technisch": {
+        "hoogte": 0,
+        "breedte": 11,
+        "hoogte bij dichte brug": 2.8,
+        "diepgang": 2.5
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [5.9442891, 52.6842369]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "naam": "Marknessersluis",
+      "omschrijving": "bij Marknesse, in de Zwolsevaart",
+      "technisch": {
+        "hoogte": 39,
+        "breedte": 6.8,
+        "hoogte bij dichte brug": 2.4,
+        "diepgang": 2.4
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [5.6828103, 52.6042263]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "naam": "Urkersluis",
+      "omschrijving": "bij Urk, tussen het IJsselmeer en de Urkervaart",
+      "technisch": {
+        "hoogte": 39,
+        "breedte": 6.8,
+        "hoogte bij dichte brug": 6.2,
+        "diepgang": 2.4
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [5.6012378, 52.657875]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "naam": "Arie de Witbrug",
+      "omschrijving": "bij Urk, over de Urkervaart",
+      "technisch": {
+        "hoogte": 0,
+        "breedte": 6.8,
+        "hoogte bij dichte brug": 2.4,
+        "diepgang": 2.4
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [5.6117165, 52.6576179]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "naam": "Zwolsebrug",
+      "omschrijving": "bij Urk, fietsbrug over de Urkervaart",
+      "technisch": {
+        "hoogte": 0,
+        "breedte": 6.8,
+        "hoogte bij dichte brug": 2.4,
+        "diepgang": 2.4
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [5.6299694, 52.6575605]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "naam": "Tollebekerbrug",
+      "omschrijving": "bij Tollebeek, over de Urkervaart",
+      "technisch": {
+        "hoogte": 0,
+        "breedte": 7.3,
+        "hoogte bij dichte brug": 2.4,
+        "diepgang": 2.4
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [5.681078, 52.6778397]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "naam": "Ketelsluis",
+      "omschrijving": "tussen het Ketelmeer en de Hoge Vaart",
+      "regio": "Oostelijk Flevoland",
+      "technisch": {
+        "hoogte": 43,
+        "breedte": 6.4,
+        "hoogte bij dichte brug": 5.6,
+        "diepgang": 2.4
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [5.7557869, 52.5788427]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "naam": "Kampersluis",
+      "omschrijving": "tussen de Hoge en de Lage Vaart",
+      "regio": "Oostelijk Flevoland",
+      "technisch": {
+        "hoogte": 62,
+        "breedte": 7.3,
+        "hoogte bij dichte brug": 2.6,
+        "diepgang": 2.4
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [5.7507296, 52.5731255]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "naam": "Elburgerbrug",
+      "omschrijving": "bij Elburg, over het Veluwemeer",
+      "regio": "Oostelijk Flevoland",
+      "technisch": {
+        "hoogte": 0,
+        "breedte": 11,
+        "hoogte bij dichte brug": 5.5,
+        "diepgang": 2.5
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [5.8147356, 52.4574302]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "naam": "Blauwe Dromer",
+      "omschrijving": "bij Harderwijk, tussen het Veluwemeer en de Hoge Dwarsvaart",
+      "regio": "Oostelijk Flevoland",
+      "technisch": {
+        "hoogte": 20,
+        "breedte": 4.8,
+        "hoogte bij dichte brug": "5.1 (3.9)",
+        "diepgang": 1.4
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [5.61231, 52.3706459]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "naam": "Larsersluis",
+      "omschrijving": "in de Larsertocht",
+      "regio": "Oostelijk Flevoland",
+      "technisch": {
+        "hoogte": 20,
+        "breedte": 4.8,
+        "hoogte bij dichte brug": 3,
+        "diepgang": 1.4
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [5.585713, 52.4146327]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "naam": "Noordersluis",
+      "omschrijving": "bij Lelystad, tussen het Markermeer en de Lage Dwarsvaart",
+      "regio": "Oostelijk Flevoland",
+      "technisch": {
+        "hoogte": 63,
+        "breedte": 8.2,
+        "hoogte bij dichte brug": 6.4,
+        "diepgang": 2.4
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [5.4169542, 52.5032053]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "naam": "Zuidersluis",
+      "omschrijving": "bij Almere, tussen het Markermeer en de Lage Vaart",
+      "regio": "Zuidelijk Flevoland",
+      "technisch": {
+        "hoogte": 63,
+        "breedte": 8.2,
+        "hoogte bij dichte brug": 6.4,
+        "diepgang": 2.5
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [5.2207483, 52.4170493]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "naam": "Vaartsluis",
+      "omschrijving": "bij Almere, tussen de Lage Vaart",
+      "regio": "Zuidelijk Flevoland",
+      "technisch": {
+        "hoogte": 65,
+        "breedte": 8.2,
+        "hoogte bij dichte brug": 0,
+        "diepgang": 2.5
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [5.2303149, 52.4068256]
+    }
+  }]
+}
