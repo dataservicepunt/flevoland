@@ -1,4 +1,11 @@
 {
+  "meta": {
+    "datum": "14-08-2018",
+    "tijd": "09:46",
+    "status": "NIET GEBRUIKEN",
+    "actie": "bronhouder zoeken, controle data",
+    "contact": "Johan Groenen <johan@tiltshift.nl>"
+  },
   "objecten": [
     {
       "naam": "Friese Sluis",
@@ -6,6 +13,12 @@
       "coordinaten": {
         "lat": 52.8378132,
         "lon": 5.7113786
+      },
+      "technisch": {
+        "hoogte": 39,
+        "breedte": 6.8,
+        "hoogte bij dichte brug": 6.2,
+        "diepgang": 2.4
       }
     },
     {
@@ -14,6 +27,12 @@
       "coordinaten": {
         "lat": 52.6686946,
         "lon": 5.9281361
+      },
+      "technisch": {
+        "hoogte": 39,
+        "breedte": 6.8,
+        "hoogte bij dichte brug": 5.3,
+        "diepgang": 2.4
       }
     },
     {
@@ -22,6 +41,12 @@
       "coordinaten": {
         "lat": 52.6842369,
         "lon": 5.9442891
+      },
+      "technisch": {
+        "hoogte": 0,
+        "breedte": 11,
+        "hoogte bij dichte brug": 2.8,
+        "diepgang": 2.5
       }
     },
     {
@@ -30,6 +55,12 @@
       "coordinaten": {
         "lat": 52.6042263,
         "lon": 5.6828103
+      },
+      "technisch": {
+        "hoogte": 39,
+        "breedte": 6.8,
+        "hoogte bij dichte brug": 2.4,
+        "diepgang": 2.4
       }
     },
     {
@@ -38,6 +69,12 @@
       "coordinaten": {
         "lat": 52.657875,
         "lon": 5.6012378
+      },
+      "technisch": {
+        "hoogte": 39,
+        "breedte": 6.8,
+        "hoogte bij dichte brug": 6.2,
+        "diepgang": 2.4
       }
     },
     {
@@ -46,6 +83,12 @@
       "coordinaten": {
         "lat": 52.6576179,
         "lon": 5.6117165
+      },
+      "technisch": {
+        "hoogte": 0,
+        "breedte": 6.8,
+        "hoogte bij dichte brug": 2.4,
+        "diepgang": 2.4
       }
     },
     {
@@ -54,6 +97,12 @@
       "coordinaten": {
         "lat": 52.6575605,
         "lon": 5.6299694
+      },
+      "technisch": {
+        "hoogte": 0,
+        "breedte": 6.8,
+        "hoogte bij dichte brug": 2.4,
+        "diepgang": 2.4
       }
     },
     {
@@ -62,6 +111,12 @@
       "coordinaten": {
         "lat": 52.6778397,
         "lon": 5.681078
+      },
+      "technisch": {
+        "hoogte": 0,
+        "breedte": 7.3,
+        "hoogte bij dichte brug": 2.4,
+        "diepgang": 2.4
       }
     },
     {
@@ -71,7 +126,13 @@
         "lat": 52.5788427,
         "lon": 5.7557869
       },
-      "regio": "Oostelijk Flevoland"
+      "regio": "Oostelijk Flevoland",
+      "technisch": {
+        "hoogte": 43,
+        "breedte": 6.4,
+        "hoogte bij dichte brug": 5.6,
+        "diepgang": 2.4
+      }
     },
     {
       "naam": "Kampersluis",
@@ -80,7 +141,13 @@
         "lat": 52.5731255,
         "lon": 5.7507296
       },
-      "regio": "Oostelijk Flevoland"
+      "regio": "Oostelijk Flevoland",
+      "technisch": {
+        "hoogte": 62,
+        "breedte": 7.3,
+        "hoogte bij dichte brug": 2.6,
+        "diepgang": 2.4
+      }
     },
     {
       "naam": "Elburgerbrug",
@@ -89,7 +156,13 @@
         "lat": 52.4574302,
         "lon": 5.8147356
       },
-      "regio": "Oostelijk Flevoland"
+      "regio": "Oostelijk Flevoland",
+      "technisch": {
+        "hoogte": 0,
+        "breedte": 11,
+        "hoogte bij dichte brug": 5.5,
+        "diepgang": 2.5
+      }
     },
     {
       "naam": "Blauwe Dromer",
@@ -98,7 +171,13 @@
         "lat": 52.3706459,
         "lon": 5.61231
       },
-      "regio": "Oostelijk Flevoland"
+      "regio": "Oostelijk Flevoland",
+      "technisch": {
+        "hoogte": 20,
+        "breedte": 4.8,
+        "hoogte bij dichte brug": "5.1 (3.9)",
+        "diepgang": 1.4
+      }
     },
     {
       "naam": "Larsersluis",
@@ -107,7 +186,13 @@
         "lat": 52.4146327,
         "lon": 5.585713
       },
-      "regio": "Oostelijk Flevoland"
+      "regio": "Oostelijk Flevoland",
+      "technisch": {
+        "hoogte": 20,
+        "breedte": 4.8,
+        "hoogte bij dichte brug": 3,
+        "diepgang": 1.4
+      }
     },
     {
       "naam": "Noordersluis",
@@ -116,7 +201,13 @@
         "lat": 52.5032053,
         "lon": 5.4169542
       },
-      "regio": "Oostelijk Flevoland"
+      "regio": "Oostelijk Flevoland",
+      "technisch": {
+        "hoogte": 63,
+        "breedte": 8.2,
+        "hoogte bij dichte brug": 6.4,
+        "diepgang": 2.4
+      }
     },
     {
       "naam": "Zuidersluis",
@@ -125,7 +216,13 @@
         "lat": 52.4170493,
         "lon": 5.2207483
       },
-      "regio": "Zuidelijk Flevoland"
+      "regio": "Zuidelijk Flevoland",
+      "technisch": {
+        "hoogte": 63,
+        "breedte": 8.2,
+        "hoogte bij dichte brug": 6.4,
+        "diepgang": 2.5
+      }
     },
     {
       "naam": "Vaartsluis",
@@ -134,7 +231,13 @@
         "lat": 52.4068256,
         "lon": 5.2303149
       },
-      "regio": "Zuidelijk Flevoland"
+      "regio": "Zuidelijk Flevoland",
+      "technisch": {
+        "hoogte": 65,
+        "breedte": 8.2,
+        "hoogte bij dichte brug": 0,
+        "diepgang": 2.5
+      }
     }
   ]
 }
