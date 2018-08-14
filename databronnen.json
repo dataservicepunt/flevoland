@@ -1,14 +1,11 @@
 {
-  "bronnen": {
-    "bruggen": {
-      "url": "https://",
-      "contactpersoon": {},
-      "documentatie": "https://"
-    },
-    "sluizen": {
-      "url": "https://",
-      "contactpersoon": {},
-      "documentatie": "https://"
+  "bronnen": [
+    {
+      "naam": "bruggen en sluizen",
+      "datum": "14-08-2018",
+      "versie": "0.1",
+      "contact": "Johan Groenen <johan@tiltshift.nl>",
+      "uri": "https://www.dataservicepunt.nl/flevoland/bruggen_en_sluizen.json"
     }
-  }
+  ]
 }
