@@ -43,13 +43,27 @@ description: Data Servicepunt helpt en faciliteert bij (her)gebruik van data doo
       main {
         background: url(https://www.flevoland.nl/getmedia/45832f11-c841-4f79-acae-989e5c0a1ea6/Batavia.jpg) top center no-repeat;
       }
+      footer {
+        background: #277ac0;
+        color: white;
+        padding: 3.2rem 0;
+        margin-top: 120px;
+      }
+      footer a {
+        text-decoration: none;
+        color: white;
+      }
+      footer h2 {
+        margin-top: 0;
+      }
     </style>
   </head>
   <body>
     <nav>
       <div class="wrapper">
-        {% for x in site.data.producten_en_diensten %}
-        <a href="/{{x.naam}}">{{x.naam}}</a> |
+        {% assign links = site.data.producten_en_diensten | where_exp: "link", "link.uri != nil" %}
+        {% for link in links %}
+        <a href="/{{link.uri}}">{{link.naam}}</a> |
         {% endfor %}
         <a href="mailto:flevoland@dataservicepunt.nl">flevoland@dataservicepunt.nl</a>
       </div>
@@ -68,13 +82,9 @@ description: Data Servicepunt helpt en faciliteert bij (her)gebruik van data doo
           <p>{{page.description}}</p>
 
           {% for x in site.data.producten_en_diensten %}
-            <h2>{{x.naam|capitalize}}</h2>
-            <p>{{x.omschrijving|capitalize}}</p>
+            <h2>{{x.naam}}</h2>
+            <p>{{x.omschrijving}}</p>
           {% endfor %}
-
-          <h2>Meer informatie en contact</h2>
-
-          <p><a href="mailto:flevoland@dataservicepunt.nl">flevoland@dataservicepunt.nl</a></p>
 
         </div>
 
@@ -82,6 +92,14 @@ description: Data Servicepunt helpt en faciliteert bij (her)gebruik van data doo
     </main>
     <footer>
       <div class="wrapper">
+        <div style="display: flex">
+          <div style="width: 150px">
+            <img src="https://www.flevoland.nl/getmedia/940e4b5f-b759-488f-a648-7f12f096fa29/Logo-provincie-Flevoland.png?width=61&height=83" alt="Logo Provincie Flevoland" />
+          </div>
+          <div style="flex: auto">
+            <h2>Meer informatie en contact</h2>
+            <p><a href="mailto:flevoland@dataservicepunt.nl">flevoland@dataservicepunt.nl</a></p>
+          </div>
       </div>
     </footer>
   </body>
