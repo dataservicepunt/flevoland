@@ -1,0 +1,26 @@
+{
+  "index": [
+    {
+      "naam": "bruggen en sluizen",
+      "datum": "14-08-2018",
+      "tijd": "09:46",
+      "status": "NIET GEBRUIKEN",
+      "actie": "bronhouder zoeken, controle data",
+      "type": "DATA_MART",
+      "contact": "Johan Groenen <johan@tiltshift.nl>",
+      "format": "JSON",
+      "uri": "https://www.dataservicepunt.nl/flevoland/data/bruggen_en_sluizen/bruggen_en_sluizen.json"
+    },
+    {
+      "naam": "bruggen en sluizen",
+      "datum": "14-08-2018",
+      "tijd": "09:46",
+      "status": "NIET GEBRUIKEN",
+      "actie": "bronhouder zoeken, controle data",
+      "type": "DATA_MART",
+      "contact": "Johan Groenen <johan@tiltshift.nl>",
+      "format": "GEO_JSON",
+      "uri": "https://www.dataservicepunt.nl/flevoland/data/bruggen_en_sluizen/bruggen_en_sluizen.geo.json"
+    }
+  ]
+}
