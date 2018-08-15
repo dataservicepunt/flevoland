@@ -1,0 +1,14 @@
+- naam: <a href="data">dataportaal</a>
+  omschrijving: overzicht van beschikbare data marts, web services, triggers en toepassingen.
+
+- naam: data marts
+  omschrijving: ontwikkeling en beheer van automatische geactualiseerde datasets op maat, voor analyse en visualisatie.
+
+- naam: web services
+  omschrijving: ontwikkeling en beheer van door verschillende applicaties herbruikbare back-end data services.
+
+- naam: triggers
+  omschrijving: ontwikkeling en beheer van automatische acties op basis van real time data.
+
+- naam: toepassingen
+  omschrijving: ontwikkeling en beheer online tools voor gebruik, beheer, analyse en visualisatie van data.

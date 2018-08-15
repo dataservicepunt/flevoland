@@ -1,27 +1,88 @@
+---
+title: Data Servicepunt
+description: Data Servicepunt helpt en faciliteert bij (her)gebruik van data door middel van een aantal producten en diensten.
+---
 <!DOCTYPE html>
 <html>
   <head>
+    <title>{{ page.title }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        font-size: 100%;
+      }
+      h1 {
+        font-size: 1.8em;
+        font-weight: 700;
+        color: #e70077;
+      }
+      h2 {
+        font-size: 1.4em;
+        font-weight: 700;
+      }
+      .wrapper {
+        max-width: 980px;
+        margin: auto
+      }
+      nav {
+        background: #f5f6f6;
+        font-size: 0.85rem;
+        padding: 0.8rem;
+        text-align: right;
+      }
+      nav a {
+        color: #0057ad;
+        text-decoration: none;
+        margin: 0 1rem;
+      }
+      header {
+        padding: 1.6rem 0;
+      }
+      main {
+        background: url(https://www.flevoland.nl/getmedia/45832f11-c841-4f79-acae-989e5c0a1ea6/Batavia.jpg) top center no-repeat;
+      }
+    </style>
   </head>
   <body>
-    <p><img src="https://www.flevoland.nl/getmedia/e1ee3730-6d0e-4a5a-8e24-c42801b1bcc6/Logo.png" alt="Provincie Flevoland" /></p>
-    <h1 id="data-servicepunt">Data Servicepunt</h1>
+    <nav>
+      <div class="wrapper">
+        {% for x in site.data.producten_en_diensten %}
+        <a href="/{{x.naam}}">{{x.naam}}</a> |
+        {% endfor %}
+        <a href="mailto:flevoland@dataservicepunt.nl">flevoland@dataservicepunt.nl</a>
+      </div>
+    </nav>
+    <header>
+      <div class="wrapper">
+        <img src="https://www.flevoland.nl/getmedia/e1ee3730-6d0e-4a5a-8e24-c42801b1bcc6/Logo.png" alt="Provincie Flevoland" />
+      </div>
+    </header>
+    <main>
+      <div class="wrapper" style="padding-top: 8rem">
 
-    <h2 id="advies"><a href="/advies">Advies</a></h2>
-    <p>In kaart brengen en beschrijven van beschikbare databronnen en informatiestromen binnen de organisatie. Advies op het gebied van datakwaliteit en verbetering van dataprocessen en informatiestromen.</p>
+        <div class="content" style="max-width: 40rem; background: white; padding: 1rem; margin: auto;">
 
-    <p>contact: flevoland@dataservicepunt.nl</p>
+          <h1>{{page.title}}</h1>
+          <p>{{page.description}}</p>
 
-    <h2 id="beheer"><a href="/beheer">Beheer</a></h2>
-    <p>Bestaande en nieuwe databronnen overzichtelijk en (her)bruikbaar aanbieden op een centrale plek, en hiervoor de nodige afspraken maken met bronhouders en afnemers.</p>
+          {% for x in site.data.producten_en_diensten %}
+            <h2>{{x.naam|capitalize}}</h2>
+            <p>{{x.omschrijving|capitalize}}</p>
+          {% endfor %}
 
-    <h3 id="beschikbare-data">Beschikbare data</h3>
-    <p><a href="/flevoland/databronnen.json">databronnen</a> (json formaat)</p>
+          <h2>Meer informatie en contact</h2>
 
-    <p>contact: flevoland@dataservicepunt.nl</p>
+          <p><a href="mailto:flevoland@dataservicepunt.nl">flevoland@dataservicepunt.nl</a></p>
 
-    <h2 id="toepassingen"><a href="/toepassingen">Toepassingen</a></h2>
-    <p>Data science, data services en datagedreven applicaties.</p>
+        </div>
 
-    <p>contact: flevoland@dataservicepunt.nl</p>
+      </div>
+    </main>
+    <footer>
+      <div class="wrapper">
+      </div>
+    </footer>
   </body>
 </html>
