@@ -63,7 +63,7 @@ description: Data Servicepunt helpt en faciliteert bij (her)gebruik van data doo
       <div class="wrapper">
         {% assign links = site.data.producten_en_diensten | where_exp: "link", "link.uri != nil" %}
         {% for link in links %}
-        <a href="/{{link.uri}}">{{link.naam}}</a> |
+        <a href="{{link.uri}}">{{link.naam}}</a> |
         {% endfor %}
         <a href="mailto:flevoland@dataservicepunt.nl">flevoland@dataservicepunt.nl</a>
       </div>
