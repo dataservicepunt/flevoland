@@ -1,5 +1,5 @@
 - naam: Dataportaal
-  omschrijving: Overzicht van beschikbare data marts, web services, triggers en toepassingen. <a href="data">Klik hier om naar het dataportaal te gaan.</a>
+  omschrijving: Overzicht van beschikbare data marts, web services, triggers en toepassingen. <a href="data/databronnen.json">Klik hier om naar het dataportaal te gaan.</a>
   uri: data/databronnen.json
 
 - naam: Data marts
