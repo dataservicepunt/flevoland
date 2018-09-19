@@ -1,15 +1,16 @@
 - naam: Dataportaal
-  omschrijving: Overzicht van beschikbare data marts, web services, triggers en toepassingen. <a href="data/index.json">Klik hier om naar het dataportaal te gaan.</a>
+  omschrijving: Overzicht van beschikbare data marts en data services.
   uri: data/index.json
 
 - naam: Data marts
-  omschrijving: Ontwikkeling en beheer van automatische geactualiseerde datasets op maat, voor analyse en visualisatie.
+  omschrijving: "Ontwikkeling en beheer van data marts: datasets op maat - die regelmatig automatisch worden geactualiseerd - voor periodieke analyse en visualisatie."
 
-- naam: Web services
-  omschrijving: Ontwikkeling en beheer van door verschillende applicaties herbruikbare back-end data services.
+- naam: Data services
+  omschrijving: "Ontwikkeling en beheer van data services: door verschillende applicaties herbruikbare back-ends, en automatische acties op basis van real-time data (\"triggers\")."
 
-- naam: Triggers
-  omschrijving: Ontwikkeling en beheer van automatische acties op basis van real time data.
+- naam: App store
+  omschrijving: Overzicht van beschikbare toepassingen.
+  uri: apps/index.json
 
 - naam: Toepassingen
   omschrijving: Ontwikkeling en beheer online tools voor gebruik, beheer, analyse en visualisatie van data.

@@ -41,7 +41,10 @@ description: Data Servicepunt helpt en faciliteert bij (her)gebruik van data doo
         padding: 1.6rem 0;
       }
       main {
-        background: url(https://www.flevoland.nl/getmedia/45832f11-c841-4f79-acae-989e5c0a1ea6/Batavia.jpg) top center no-repeat;
+        background: url(img/Batavia.jpg) top center no-repeat;
+      }
+      p {
+          line-height: 1.4em;
       }
       footer {
         background: #277ac0;
@@ -70,7 +73,7 @@ description: Data Servicepunt helpt en faciliteert bij (her)gebruik van data doo
     </nav>
     <header>
       <div class="wrapper">
-        <img src="https://www.flevoland.nl/getmedia/e1ee3730-6d0e-4a5a-8e24-c42801b1bcc6/Logo.png" alt="Provincie Flevoland" />
+        <img src="img/Logo.png" alt="Provincie Flevoland" />
       </div>
     </header>
     <main>
@@ -82,7 +85,13 @@ description: Data Servicepunt helpt en faciliteert bij (her)gebruik van data doo
           <p>{{page.description}}</p>
 
           {% for x in site.data.producten_en_diensten %}
-            <h2>{{x.naam}}</h2>
+            <h2>
+                {% if x.uri %}
+                <a href="{{x.uri}}">{{x.naam}}</a>
+                {% else %}
+                {{x.naam}}
+                {% endif %}
+            </h2>
             <p>{{x.omschrijving}}</p>
           {% endfor %}
 
@@ -94,7 +103,7 @@ description: Data Servicepunt helpt en faciliteert bij (her)gebruik van data doo
       <div class="wrapper">
         <div style="display: flex">
           <div style="width: 150px">
-            <img src="https://www.flevoland.nl/getmedia/940e4b5f-b759-488f-a648-7f12f096fa29/Logo-provincie-Flevoland.png?width=61&height=83" alt="Logo Provincie Flevoland" />
+            <img src="img/Logo-provincie-Flevoland.png?width=61&height=83" alt="Logo Provincie Flevoland" />
           </div>
           <div style="flex: auto">
             <h2>Meer informatie en contact</h2>
