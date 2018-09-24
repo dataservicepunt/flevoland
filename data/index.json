@@ -1,15 +1,16 @@
 {
   "index": [
     {
-      "naam": "Sluizen bruggen compleet",
-      "datum": "03-09-2018",
-      "tijd": "10:07",
+      "naam": "bruggen en sluizen",
+      "datetime": "2018-09-24 15:31:00",
+      "datum": "24-09-2018",
+      "tijd": "15:31:00",
       "status": "OFFICIELE EXPORT",
       "actie": "",
       "type": "DATAMART",
       "contact": "Johan Pruim <Johan.Pruim2@flevoland.nl>",
       "format": "GEOJSON",
-      "uri": "https://www.dataservicepunt.nl/flevoland/data/bruggen_en_sluizen/Sluizen_bruggen_compleet.geojson"
+      "uri": "https://www.dataservicepunt.nl/flevoland/data/bruggen_en_sluizen/20180924_153100_bruggen_en_sluizen.geojson"
     }
   ]
 }
