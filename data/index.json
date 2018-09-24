@@ -19,8 +19,19 @@
       "actie": "bronhouder zoeken, controle data",
       "type": "DATA_MART",
       "contact": "Johan Groenen <johan@tiltshift.nl>",
-      "format": "GEO_JSON",
+      "format": "GEOJSON",
       "uri": "https://www.dataservicepunt.nl/flevoland/data/bruggen_en_sluizen/bruggen_en_sluizen.geo.json"
+    },
+    {
+      "naam": "Sluizen bruggen compleet",
+      "datum": "03-09-2018",
+      "tijd": "10:07",
+      "status": "OFFICIELE EXPORT",
+      "actie": "",
+      "type": "DATAMART",
+      "contact": "Johan Pruim <Johan.Pruim2@flevoland.nl>",
+      "format": "GEOJSON",
+      "uri": "https://www.dataservicepunt.nl/flevoland/data/bruggen_en_sluizen/Sluizen_bruggen_compleet.geojson"
     }
   ]
 }
