@@ -5,8 +5,8 @@
       "datetime": "2018-09-24 16:07:00",
       "datum": "24-09-2018",
       "tijd": "16:07:00",
-      "status": "DEVELOPMENT",
-      "actie": "versie 0.1 maken",
+      "status": "IN ONTWIKKELING",
+      "actie": "demo, testen",
       "type": "WEBAPP",
       "contact": "Johan Groenen <johan@tiltshift.nl>",
       "uri": "http://apps.dataservicepunt.nl/aanmelden/"
@@ -16,7 +16,7 @@
       "datum": "12-09-2018",
       "tijd": "09:46",
       "status": "IN ONTWIKKELING",
-      "actie": "versie 0.1 maken",
+      "actie": "demo, authenticatie, testen",
       "type": "WEBAPP",
       "contact": "Johan Groenen <johan@tiltshift.nl>",
       "uri": "http://apps.dataservicepunt.nl/versturen/"
