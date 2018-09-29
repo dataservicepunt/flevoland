@@ -25,7 +25,7 @@
       "type": "DATASERVICE",
       "contact": "Johan Groenen <johan@tiltshift.nl>",
       "documentatie": "http://localhost/docs/",
-      "uri": "http://localhost/api/"
+      "uri": "http://apis.dataservicepunt.nl/"
     }
   ]
 }

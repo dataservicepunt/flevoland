@@ -9,7 +9,7 @@
       "actie": "versie 0.1 maken",
       "type": "WEBAPP",
       "contact": "Johan Groenen <johan@tiltshift.nl>",
-      "uri": "http://localhost/app/aanmelden/"
+      "uri": "http://apps.dataservicepunt.nl/aanmelden/"
     },
     {
       "naam": "versturen notificaties beschikbaarheid bruggen en sluizen",
@@ -19,7 +19,7 @@
       "actie": "versie 0.1 maken",
       "type": "WEBAPP",
       "contact": "Johan Groenen <johan@tiltshift.nl>",
-      "uri": "http://localhost/app/versturen/"
+      "uri": "http://apps.dataservicepunt.nl/versturen/"
     }
   ]
 }
