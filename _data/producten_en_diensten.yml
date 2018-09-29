@@ -10,7 +10,7 @@
 
 - naam: App store
   omschrijving: Overzicht van beschikbare toepassingen.
-  uri: apps/index.json
+  uri: http://apps.dataservicepunt.nl/
 
 - naam: Toepassingen
   omschrijving: Ontwikkeling en beheer online tools voor gebruik, beheer, analyse en visualisatie van data.
