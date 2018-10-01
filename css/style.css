@@ -5,12 +5,12 @@ body {
 }
 h1 {
   font-size: 1.8em;
-  font-weight: 700;
+  font-weight: 100;
   color: #e70077;
 }
 h2 {
   font-size: 1.4em;
-  font-weight: 700;
+  font-weight: 100;
 }
 .wrapper {
   max-width: 980px;
