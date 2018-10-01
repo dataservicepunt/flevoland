@@ -26,6 +26,7 @@ nav a {
   color: #0057ad;
   text-decoration: none;
   margin: 0 1rem;
+  line-height: 1.8em;
 }
 header {
   padding: 1.6rem 0;

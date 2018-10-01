@@ -2,13 +2,13 @@
   omschrijving: Overzicht van beschikbare data marts en data services.
   uri: data/index.json
 
-- naam: Data marts
+- naam: Data&nbsp;marts
   omschrijving: "Ontwikkeling en beheer van data marts: datasets op maat - die regelmatig automatisch worden geactualiseerd - voor periodieke analyse en visualisatie."
 
-- naam: Data services
+- naam: Data&nbsp;services
   omschrijving: "Ontwikkeling en beheer van data services: door verschillende applicaties herbruikbare back-ends, en automatische acties op basis van real-time data (\"triggers\")."
 
-- naam: App store
+- naam: App&nbsp;store
   omschrijving: Overzicht van beschikbare toepassingen.
   uri: http://apps.dataservicepunt.nl/
 
