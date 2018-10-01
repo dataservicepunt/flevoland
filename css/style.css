@@ -16,6 +16,10 @@ h2 {
   max-width: 980px;
   margin: auto
 }
+img {
+  margin: 0 1rem;
+  max-width: 80%;
+}
 nav {
   background: #f5f6f6;
   font-size: 0.85rem;
