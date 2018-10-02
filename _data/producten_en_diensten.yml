@@ -2,7 +2,7 @@
   omschrijving: "Ontwikkeling en beheer van data marts: datasets op maat - die regelmatig automatisch worden geactualiseerd - voor periodieke analyse en visualisatie."
   uri: http://apis.dataservicepunt.nl/
 
-- naam: "Data&nbsp;services (API's)"
+- naam: "Data&nbsp;services&nbsp;(API's)"
   omschrijving: "Ontwikkeling en beheer van data services: door verschillende applicaties herbruikbare back-ends, en automatische acties op basis van real-time data (\"triggers\")."
   uri: http://apis.dataservicepunt.nl/
 
