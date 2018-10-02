@@ -11,7 +11,8 @@
       "contact": "Johan Pruim <Johan.Pruim2@flevoland.nl>",
       "format": "GEOJSON",
       "uri": "https://www.dataservicepunt.nl/flevoland/data/bruggen_en_sluizen/bruggen_en_sluizen.geojson",
-      "current_version": "https://www.dataservicepunt.nl/flevoland/data/bruggen_en_sluizen/20180924_153100_bruggen_en_sluizen.geojson"
+      "current_version": "https://www.dataservicepunt.nl/flevoland/data/bruggen_en_sluizen/20180924_153100_bruggen_en_sluizen.geojson",
+      "github_uri": "https://github.com/dataservicepunt/flevoland/blob/master/data/bruggen_en_sluizen/20180924_153100_bruggen_en_sluizen.geojson"
     }
   ],
   "dataservices": [
