@@ -1,10 +1,10 @@
 - naam: Data&nbsp;marts
   omschrijving: "Ontwikkeling en beheer van data marts: datasets op maat - die regelmatig automatisch worden geactualiseerd - voor periodieke analyse en visualisatie."
-  uri: data/index.json
+  uri: http://apis.dataservicepunt.nl/
 
 - naam: "Data&nbsp;services (API's)"
   omschrijving: "Ontwikkeling en beheer van data services: door verschillende applicaties herbruikbare back-ends, en automatische acties op basis van real-time data (\"triggers\")."
-  uri: data/index.json
+  uri: http://apis.dataservicepunt.nl/
 
 - naam: Apps
   omschrijving: Ontwikkeling en beheer online tools voor gebruik, beheer, analyse en visualisatie van data.
