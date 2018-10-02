@@ -12,16 +12,7 @@ description: Data Servicepunt helpt en faciliteert bij (her)gebruik van data doo
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <nav>
-      <div class="wrapper">
-        <a href="https://www.dataservicepunt.nl/flevoland/">Data&nbsp;Servicepunt&nbsp;Flevoland</a> |
-        {% assign links = site.data.producten_en_diensten | where_exp: "link", "link.uri != nil" %}
-        {% for link in links %}
-        <a href="{{link.uri}}">{{link.naam}}</a> |
-        {% endfor %}
-        <a href="mailto:flevoland@dataservicepunt.nl">flevoland@dataservicepunt.nl</a>
-      </div>
-    </nav>
+    {% include nav.html %}
     <header>
       <div class="wrapper">
         <img src="img/Logo.png" alt="Provincie Flevoland" />
