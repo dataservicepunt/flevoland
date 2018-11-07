@@ -1,6 +1,6 @@
 ---
 title: Data Servicepunt Flevoland
-description: Data Servicepunt Flevoland helpt en faciliteert bij (her)gebruik van data door middel van een aantal producten en diensten.
+description: Data Servicepunt Flevoland helpt bij data vragen, en faciliteert bij (her)gebruik van Provinciale data door middel van ontwikkeling en beheer van data marts, data services en apps.
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -28,14 +28,12 @@ description: Data Servicepunt Flevoland helpt en faciliteert bij (her)gebruik va
           <p>{{page.description}}</p>
 
           {% for x in site.data.producten_en_diensten %}
-            <h2>
-                {% if x.uri %}
-                <a href="{{x.uri}}">{{x.naam}}</a>
-                {% else %}
-                {{x.naam}}
-                {% endif %}
-            </h2>
+            <h2>{{x.naam}}</h2>
             <p>{{x.omschrijving}}</p>
+            <p>
+              {% if x.uri %}
+              <a href="{{x.uri}}">Klik hier voor een overzicht »</a>
+              {% endif %}
           {% endfor %}
 
         </div>
